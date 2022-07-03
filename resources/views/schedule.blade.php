@@ -34,9 +34,9 @@
                                     <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
                                     <td class="tuesday saturday ts-item" data-tsmeta="tuesday" data-tsmeta="saturday">2:00PM - 3:30PM</td>
                                     <td>
-                                        <div class="schedule">
-                                            <button>Choose</button>
-                                        </div>    
+                                        <div class="main-button scroll-to-section">
+                                            <a href="/payment">Choose</a>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr>
@@ -44,8 +44,8 @@
                                     <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
                                     <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
                                     <td>
-                                        <div class="schedule">
-                                            <button>Choose</button>
+                                        <div class="main-button scroll-to-section">
+                                            <a href="/payment">Choose</a>
                                         </div>    
                                     </td>
                                 </tr>
@@ -54,9 +54,9 @@
                                     <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
                                     <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
                                     <td>
-                                        <div class="schedule">
-                                            <button>Choose</button>
-                                        </div>    
+                                        <div class="main-button scroll-to-section">
+                                            <a href="/payment">Choose</a>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr>
@@ -64,9 +64,9 @@
                                     <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
                                     <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
                                     <td>
-                                        <div class="schedule">
-                                            <button>Choose</button>
-                                        </div>    
+                                        <div class="main-button scroll-to-section">
+                                            <a href="/payment">Choose</a>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr>
@@ -74,9 +74,9 @@
                                     <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
                                     <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
                                     <td>
-                                        <div class="schedule">
-                                            <button>Choose</button>
-                                        </div>    
+                                        <div class="main-button scroll-to-section">
+                                            <a href="/payment">Choose</a>
+                                        </div>     
                                     </td>
                                 </tr>
                             </tbody>

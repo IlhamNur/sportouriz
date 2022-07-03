@@ -33,4 +33,11 @@ class HomeController extends Controller
             'title' => 'Contact | Sportouriz'
         ]);
     }
+
+    public function payment() 
+    {
+        return view('payment', [
+            'title' => 'Payment | Sportouriz'
+        ]);
+    }
 }

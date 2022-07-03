@@ -22,4 +22,6 @@ Route::get('/location', [HomeController::class, 'location']);
 
 Route::get('/contact', [HomeController::class, 'contact']);
 
+Route::get('/payment', [HomeController::class, 'payment']);
+
 Auth::routes();
