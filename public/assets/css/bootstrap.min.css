@@ -2799,11 +2799,11 @@ fieldset:disabled a.btn {
 }
 .btn-link {
     font-weight: 400;
-    color: #007bff;
+    color: #f8a533;
     text-decoration: none;
 }
 .btn-link:hover {
-    color: #0056b3;
+    color: #ed563b;
     text-decoration: underline;
 }
 .btn-link.focus,

@@ -18,4 +18,6 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/schedule', [HomeController::class, 'schedule']);
 
+Route::get('/location', [HomeController::class, 'location']);
+
 Auth::routes();

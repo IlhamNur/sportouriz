@@ -19,4 +19,11 @@ class HomeController extends Controller
             'title' => 'Schedule | Sportouriz'
         ]);
     }
+
+    public function location() 
+    {
+        return view('location', [
+            'title' => 'Location | Sportouriz'
+        ]);
+    }
 }
