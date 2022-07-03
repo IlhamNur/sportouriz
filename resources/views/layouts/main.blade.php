@@ -56,11 +56,33 @@ https://templatemo.com/tm-548-training-studio
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="/" class="{{ ($title === "Home | Sportouriz") ? 'active' : '' }}">Home</a></li>
-                            <li class="scroll-to-section"><a href="/location" class="{{ ($title === "Location | Sportouriz") ? 'active' : '' }}">Location</a></li>
+                            @auth
+                                <li class="scroll-to-section"><a href="/location" class="{{ ($title === "Location | Sportouriz") ? 'active' : '' }}">Location</a></li>
+                            @endauth
                             <!-- <li class="scroll-to-section"><a href="#our-classes">Classes</a></li> -->
                             <!-- <li class="scroll-to-section"><a href="/schedule" class="{{ ($title === "Schedule | Sportouriz") ? 'active' : '' }}">Schedules</a></li> -->
-                            <li class="scroll-to-section"><a href="/contact" class="{{ ($title === "Contact | Sportouriz") ? 'active' : '' }}">Contact</a></li> 
-                            <li class="main-button"><a href="{{ route('login') }}" class="{{ ($title === "Sign In | Sportouriz") ? 'active' : '' }}">Sign In</a></li>
+                            <li class="scroll-to-section"><a href="/contact" class="{{ ($title === "Contact | Sportouriz") ? 'active' : '' }}">Contact</a></li>
+                            @auth
+                                <li class="dropdown">
+                                    <a class="btn main-button dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        {{ Auth::user()->name }}
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="main-button dropdown-item" href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+                                                        document.getElementById('logout-form').submit();">
+                                            {{ __('Logout') }}
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </li>
+                            @else
+                                <li class="main-button"><a href="{{ route('login') }}">Sign In</a></li>
+                            @endauth
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

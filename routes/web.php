@@ -16,12 +16,12 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/schedule', [HomeController::class, 'schedule']);
+Route::get('/schedule', [HomeController::class, 'schedule'])->middleware('auth');
 
-Route::get('/location', [HomeController::class, 'location']);
+Route::get('/location', [HomeController::class, 'location'])->middleware('auth');
 
 Route::get('/contact', [HomeController::class, 'contact']);
 
-Route::get('/payment', [HomeController::class, 'payment']);
+Route::get('/payment', [HomeController::class, 'payment'])->middleware('auth');
 
 Auth::routes();

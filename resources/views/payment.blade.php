@@ -42,33 +42,39 @@
                             Training
                         </label>
                     </div>
-                    <!-- <div class="main-button">
-                        <a href="#">Next</a>
-                    </div> -->
+                    <br>
+                    <br>
+                    <div class="main-button">
+                        <a href="#tabs-2">Next</a>
+                    </div>
                   </article>
                   <article id='tabs-2'>
                     <img src="assets/images/Screenshot 2022-07-04 023157.png" alt="Second Training">
                     <!-- <h4>Second Training Class</h4>
                     <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> -->
-                    <!-- <div class="main-button">
-                        <a href="#">View Schedule</a>
-                    </div> -->
+                    <br>
+                    <br>
+                    <div class="main-button">
+                        <a href="#tabs-3">Next</a>
+                    </div>
                   </article>
                   <article id='tabs-3'>
                     <img src="assets/images/payment.png" alt="Third Class">
                     <!-- <h4>Third Training Class</h4>
                     <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p> -->
-                    <!-- <div class="main-button">
-                        <a href="#">View Schedule</a>
-                    </div> -->
+                    <div class="main-button">
+                        <a href="#tabs-4">Next</a>
+                    </div>
                   </article>
                   <article id='tabs-4'>
                     <img src="assets/images/payment-succes.png" alt="Fourth Training">
                     <!-- <h4>Fourth Training Class</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p> -->
+                    <br>
+                    <br>
                     <div class="main-button">
-                        <a href="#">View Schedule</a>
-                    </div> -->
+                        <a href="/">Next</a>
+                    </div>
                   </article>
                 </section>
               </div>

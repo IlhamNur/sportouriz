@@ -12,9 +12,15 @@
             <div class="caption">
                 <h6>Those Who Don't Jump</h6>
                 <h2>Will Never <em>Fly</em></h2>
-                <div class="main-button scroll-to-section">
-                    <a href="#features">Become a member</a>
-                </div>
+                @auth
+                    <div class="main-button scroll-to-section">
+                        <a href="/location">Let's Fly</a>
+                    </div>
+                @else
+                    <div class="main-button scroll-to-section">
+                        <a href="{{ route('register') }}">Become a member</a>
+                    </div>
+                @endauth
             </div>
         </div>
     </div>
