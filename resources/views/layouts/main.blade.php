@@ -16,7 +16,9 @@ TemplateMo 548 Training Studio
 
 https://templatemo.com/tm-548-training-studio
 
--->
+--> 
+
+    <link rel="shortcut icon" href="assets/images/ico.png">  
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -58,7 +60,7 @@ https://templatemo.com/tm-548-training-studio
                             <!-- <li class="scroll-to-section"><a href="#our-classes">Classes</a></li> -->
                             <li class="scroll-to-section"><a href="/schedule" class="{{ ($title === "Schedule | Sportouriz") ? 'active' : '' }}">Schedules</a></li>
                             <li class="scroll-to-section"><a href="#contact-us" class="{{ ($title === "") ? 'active' : '' }}">Contact</a></li> 
-                            <li class="main-button"><a href="#" class="{{ ($title === "Sign Up | Sportouriz") ? 'active' : '' }}">Sign Up</a></li>
+                            <li class="main-button"><a href="{{ route('register') }}" class="{{ ($title === "Sign Up | Sportouriz") ? 'active' : '' }}">Sign Up</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -80,9 +82,9 @@ https://templatemo.com/tm-548-training-studio
                 <div class="col-lg-12">
                     <p>Copyright &copy; 2022 Sportouriz
                     
-                    - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">Kelompok B-6</a><br>
+                    - Designed by <a rel="nofollow" href="" class="tm-text-link" target="_parent">Kelompok B-6</a><br>
 
-                Distributed by <a rel="nofollow" href="https://themewagon.com" class="tm-text-link" target="_blank">Kelompok B-6</a>
+                Distributed by <a rel="nofollow" href="" class="tm-text-link" target="_blank">Kelompok B-6</a>
                 
                 </p>
                     
