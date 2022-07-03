@@ -20,4 +20,6 @@ Route::get('/schedule', [HomeController::class, 'schedule']);
 
 Route::get('/location', [HomeController::class, 'location']);
 
+Route::get('/contact', [HomeController::class, 'contact']);
+
 Auth::routes();

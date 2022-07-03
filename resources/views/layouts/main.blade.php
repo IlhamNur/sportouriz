@@ -59,7 +59,7 @@ https://templatemo.com/tm-548-training-studio
                             <li class="scroll-to-section"><a href="/location" class="{{ ($title === "Location | Sportouriz") ? 'active' : '' }}">Location</a></li>
                             <!-- <li class="scroll-to-section"><a href="#our-classes">Classes</a></li> -->
                             <li class="scroll-to-section"><a href="/schedule" class="{{ ($title === "Schedule | Sportouriz") ? 'active' : '' }}">Schedules</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us" class="{{ ($title === "") ? 'active' : '' }}">Contact</a></li> 
+                            <li class="scroll-to-section"><a href="/contact" class="{{ ($title === "Contact | Sportouriz") ? 'active' : '' }}">Contact</a></li> 
                             <li class="main-button"><a href="{{ route('login') }}" class="{{ ($title === "Sign In | Sportouriz") ? 'active' : '' }}">Sign In</a></li>
                         </ul>        
                         <a class='menu-trigger'>

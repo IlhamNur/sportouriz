@@ -26,4 +26,11 @@ class HomeController extends Controller
             'title' => 'Location | Sportouriz'
         ]);
     }
+
+    public function contact() 
+    {
+        return view('contact', [
+            'title' => 'Contact | Sportouriz'
+        ]);
+    }
 }

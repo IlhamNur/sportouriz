@@ -21,8 +21,8 @@
                             </div>
                             <div class="right-content">
                                 <h4>Watugupit Parangtritis, Yogyakarta</h4>
-                                <p>To go paragliding, you have to prepare a minimum of IDR 300,000 for one flight.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <p>To go paragliding, you have to prepare a minimum of IDR 300k for one flight.</p>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -32,7 +32,7 @@
                             <div class="right-content">
                                 <h4>Giri Sembung Kulonprogo</h4>
                                 <p>The paragliding spot here is still relatively new because it only opened around the middle of 2021.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -42,7 +42,7 @@
                             <div class="right-content">
                                 <h4>Embung Batara Sriten</h4>
                                 <p>Embung Sriten is located at an altitude of 950 meters above sea level.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                     </ul>
@@ -55,8 +55,8 @@
                             </div>
                             <div class="right-content">
                                 <h4>Mount Banyak, Batu</h4>
-                                <p>You can also try the paragliding experience here with costs starting from IDR 350 thousand - IDR 500 thousand.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <p>You can also try the paragliding experience here with costs starting from IDR 350k - IDR 500k.</p>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -65,8 +65,8 @@
                             </div>
                             <div class="right-content">
                                 <h4>Gunung Mas Bogor</h4>
-                                <p>This mountain has many visitors. You can try paragliding with a price range of Rp. 300 thousand - Rp. 500 thousand.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <p>This mountain has many visitors. You can try paragliding with a price range of IDR 300k - IDR 500k.</p>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -75,8 +75,8 @@
                             </div>
                             <div class="right-content">
                                 <h4>Karang Bolong Sukabumi</h4>
-                                <p>You will be charged around Rp. 400 thousand - Rp. 600 thousand to try to fly paragliding here.</p>
-                                <a href="#" class="text-button">Discover More</a>
+                                <p>You will be charged around IDR 400k - IDR 600k to try to fly paragliding here.</p>
+                                <a href="/schedule" class="text-button">Make Schedule</a>
                             </div>
                         </li>
                     </ul>
